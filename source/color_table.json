@@ -1,0 +1,12 @@
+{
+    "body_gradient_start": "#6dd5fa",
+    "body_gradient_end": "#9fb8ad",
+    "category_background": "#FF9999",
+    "category_title_color": "#007bff",
+    "card_background": "#FFFF99",
+    "card_h2_color": "#66CCCC",
+    "card_p_color": "#333",
+    "card_a_background": "#99CCFF",
+    "card_a_color": "white",
+    "card_a_hover_background": "#FF6666"
+}
