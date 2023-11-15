@@ -1,0 +1,594 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>服务器服务导航</title>
+    
+<style>
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #6dd5fa, #9fb8ad);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.category {
+  background-color: #FF9999;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 90%;
+  max-width: 1200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.category-title {
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.card {
+  background-color: #FFFF99;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 5px;
+  padding: 20px;
+  flex: 1;
+  min-width: calc((100% / 6) - 10px);
+  box-sizing: border-box;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-info {
+  flex: 3;
+}
+
+.card-action {
+  flex: 1;
+}
+
+.card h2 {
+  font-size: 1em;
+  color: #66CCCC;
+}
+
+.card p {
+  font-size: 0.9em;
+  color: #333;
+}
+
+.card a {
+  background-color: #99CCFF;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+}
+
+.card a:hover {
+  background-color: #FF6666;
+}
+
+@media (max-width: 1400px) {
+  .card { min-width: calc((100% / 4) - 10px); }
+}
+
+@media (max-width: 1024px) {
+  .card { min-width: calc((100% / 3) - 10px); }
+}
+
+@media (max-width: 768px) {
+  .card { min-width: calc((100% / 2) - 10px); }
+}
+
+@media (max-width: 600px) {
+  .card { min-width: 100%; }
+}
+</style>
+
+</head>
+<body>
+    
+    <div class="category">
+        <h2 class="category-title">blog</h2>
+        
+        <div class="cards-container">
+            
+            <!-- Example service card -->
+            <div class="card">
+                <div class="card-info">
+                    <h2>hugo_01</h2>
+                    <p>hugo_01</p>
+                    <p>Port: 2001</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://43.138.87.70:2001" target="_blank">访问</a>
+                </div>
+            </div>
+    
+            <!-- Example service card -->
+            <div class="card">
+                <div class="card-info">
+                    <h2>hugo_02</h2>
+                    <p>hugo_02</p>
+                    <p>Port: 2002</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://43.138.87.70:2002" target="_blank">访问</a>
+                </div>
+            </div>
+    
+            <!-- Example service card -->
+            <div class="card">
+                <div class="card-info">
+                    <h2>hugo_03</h2>
+                    <p>hugo_03</p>
+                    <p>Port: 2003</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://43.138.87.70:2003" target="_blank">访问</a>
+                </div>
+            </div>
+    
+            <!-- Example service card -->
+            <div class="card">
+                <div class="card-info">
+                    <h2>hugo_04</h2>
+                    <p>hugo_04</p>
+                    <p>Port: 2004</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://43.138.87.70:2004" target="_blank">访问</a>
+                </div>
+            </div>
+    
+            <!-- Example service card -->
+            <div class="card">
+                <div class="card-info">
+                    <h2>test_hugo</h2>
+                    <p>test_hugo</p>
+                    <p>Port: 1313</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://43.138.87.70:1313" target="_blank">访问</a>
+                </div>
+            </div>
+    
+            <!-- Example service card -->
+            <div class="card">
+                <div class="card-info">
+                    <h2>markdown_blog_001</h2>
+                    <p>markdown_blog_001</p>
+                    <p>Port: 5009</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://43.138.87.70:5009" target="_blank">访问</a>
+                </div>
+            </div>
+    
+            <!-- Example service card -->
+            <div class="card">
+                <div class="card-info">
+                    <h2>Apache_md_blog</h2>
+                    <p>Apache_md_blog</p>
+                    <p>Port: 5008</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://43.138.87.70:5008" target="_blank">访问</a>
+                </div>
+            </div>
+    
+            <!-- Example service card -->
+            <div class="card">
+                <div class="card-info">
+                    <h2>MarkdownBlog</h2>
+                    <p>MarkdownBlog</p>
+                    <p>Port: 5006</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://43.138.87.70:5006" target="_blank">访问</a>
+                </div>
+            </div>
+    
+            <!-- Example service card -->
+            <div class="card">
+                <div class="card-info">
+                    <h2>Memos</h2>
+                    <p>Memos</p>
+                    <p>Port: 5230</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://43.138.87.70:5230" target="_blank">访问</a>
+                </div>
+            </div>
+    
+        </div>
+    
+    </div>
+    
+    <div class="category">
+        <h2 class="category-title">Docker Maneger</h2>
+        
+        <div class="cards-container">
+            
+            <!-- Example service card -->
+            <div class="card">
+                <div class="card-info">
+                    <h2>Server_status</h2>
+                    <p>Server_status</p>
+                    <p>Port: 19999</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://43.138.87.70:19999" target="_blank">访问</a>
+                </div>
+            </div>
+    
+            <!-- Example service card -->
+            <div class="card">
+                <div class="card-info">
+                    <h2>ServerStatus</h2>
+                    <p>ServerStatus</p>
+                    <p>Port: 8888</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://43.138.87.70:8888" target="_blank">访问</a>
+                </div>
+            </div>
+    
+            <!-- Example service card -->
+            <div class="card">
+                <div class="card-info">
+                    <h2>portainer_agent</h2>
+                    <p>portainer_agent</p>
+                    <p>Port: 9001</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://43.138.87.70:9001" target="_blank">访问</a>
+                </div>
+            </div>
+    
+            <!-- Example service card -->
+            <div class="card">
+                <div class="card-info">
+                    <h2>面板</h2>
+                    <p>面板</p>
+                    <p>Port: 8081</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://43.138.87.70:8081" target="_blank">访问</a>
+                </div>
+            </div>
+    
+            <!-- Example service card -->
+            <div class="card">
+                <div class="card-info">
+                    <h2>docker master</h2>
+                    <p>docker master</p>
+                    <p>Port: 9000</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://43.138.87.70:9000" target="_blank">访问</a>
+                </div>
+            </div>
+    
+            <!-- Example service card -->
+            <div class="card">
+                <div class="card-info">
+                    <h2>Portainer</h2>
+                    <p>Portainer</p>
+                    <p>Port: 9090</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://43.138.87.70:9090" target="_blank">访问</a>
+                </div>
+            </div>
+    
+        </div>
+    
+    </div>
+    
+    <div class="category">
+        <h2 class="category-title">Server</h2>
+        
+        <div class="cards-container">
+            
+            <!-- Example service card -->
+            <div class="card">
+                <div class="card-info">
+                    <h2>oa</h2>
+                    <p>oa</p>
+                    <p>Port: 5007</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://43.138.87.70:5007" target="_blank">访问</a>
+                </div>
+            </div>
+    
+            <!-- Example service card -->
+            <div class="card">
+                <div class="card-info">
+                    <h2>图床</h2>
+                    <p>图床</p>
+                    <p>Port: 5005</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://43.138.87.70:5005" target="_blank">访问</a>
+                </div>
+            </div>
+    
+            <!-- Example service card -->
+            <div class="card">
+                <div class="card-info">
+                    <h2>flutter_web_00</h2>
+                    <p>flutter_web_00</p>
+                    <p>Port: 8015</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://43.138.87.70:8015" target="_blank">访问</a>
+                </div>
+            </div>
+    
+            <!-- Example service card -->
+            <div class="card">
+                <div class="card-info">
+                    <h2>flutter_web_01</h2>
+                    <p>flutter_web_01</p>
+                    <p>Port: 8016</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://43.138.87.70:8016" target="_blank">访问</a>
+                </div>
+            </div>
+    
+            <!-- Example service card -->
+            <div class="card">
+                <div class="card-info">
+                    <h2>flutter_web_02</h2>
+                    <p>flutter_web_02</p>
+                    <p>Port: 8017</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://43.138.87.70:8017" target="_blank">访问</a>
+                </div>
+            </div>
+    
+            <!-- Example service card -->
+            <div class="card">
+                <div class="card-info">
+                    <h2>flutter_web_04</h2>
+                    <p>flutter_web_04</p>
+                    <p>Port: 8019</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://43.138.87.70:8019" target="_blank">访问</a>
+                </div>
+            </div>
+    
+            <!-- Example service card -->
+            <div class="card">
+                <div class="card-info">
+                    <h2>flutter_web_03</h2>
+                    <p>flutter_web_03</p>
+                    <p>Port: 8018</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://43.138.87.70:8018" target="_blank">访问</a>
+                </div>
+            </div>
+    
+            <!-- Example service card -->
+            <div class="card">
+                <div class="card-info">
+                    <h2>FastAPi_dev</h2>
+                    <p>FastAPi_dev</p>
+                    <p>Port: 8000</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://43.138.87.70:8000" target="_blank">访问</a>
+                </div>
+            </div>
+    
+            <!-- Example service card -->
+            <div class="card">
+                <div class="card-info">
+                    <h2>Spring_dev</h2>
+                    <p>Spring_dev</p>
+                    <p>Port: 8080</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://43.138.87.70:8080" target="_blank">访问</a>
+                </div>
+            </div>
+    
+            <!-- Example service card -->
+            <div class="card">
+                <div class="card-info">
+                    <h2>fastapi_001</h2>
+                    <p>fastapi_001</p>
+                    <p>Port: 8010</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://43.138.87.70:8010" target="_blank">访问</a>
+                </div>
+            </div>
+    
+            <!-- Example service card -->
+            <div class="card">
+                <div class="card-info">
+                    <h2>fastapi_002</h2>
+                    <p>fastapi_002</p>
+                    <p>Port: 8011</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://43.138.87.70:8011" target="_blank">访问</a>
+                </div>
+            </div>
+    
+            <!-- Example service card -->
+            <div class="card">
+                <div class="card-info">
+                    <h2>fastapi_003</h2>
+                    <p>fastapi_003</p>
+                    <p>Port: 8012</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://43.138.87.70:8012" target="_blank">访问</a>
+                </div>
+            </div>
+    
+            <!-- Example service card -->
+            <div class="card">
+                <div class="card-info">
+                    <h2>MySQL_docker_002</h2>
+                    <p>MySQL_docker_002</p>
+                    <p>Port: 9306</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://43.138.87.70:9306" target="_blank">访问</a>
+                </div>
+            </div>
+    
+            <!-- Example service card -->
+            <div class="card">
+                <div class="card-info">
+                    <h2>MySQL_docker_001</h2>
+                    <p>MySQL_docker_001</p>
+                    <p>Port: 8306</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://43.138.87.70:8306" target="_blank">访问</a>
+                </div>
+            </div>
+    
+            <!-- Example service card -->
+            <div class="card">
+                <div class="card-info">
+                    <h2>frp-面板</h2>
+                    <p>frp-面板</p>
+                    <p>Port: 7500</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://43.138.87.70:7500" target="_blank">访问</a>
+                </div>
+            </div>
+    
+            <!-- Example service card -->
+            <div class="card">
+                <div class="card-info">
+                    <h2>LiunxPC</h2>
+                    <p>LiunxPC</p>
+                    <p>Port: 9745</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://43.138.87.70:9745" target="_blank">访问</a>
+                </div>
+            </div>
+    
+            <!-- Example service card -->
+            <div class="card">
+                <div class="card-info">
+                    <h2>VS Code Online</h2>
+                    <p>VS Code Online</p>
+                    <p>Port: 9096</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://43.138.87.70:9096" target="_blank">访问</a>
+                </div>
+            </div>
+    
+            <!-- Example service card -->
+            <div class="card">
+                <div class="card-info">
+                    <h2>CasselDB api docs</h2>
+                    <p>CasselDB api docs</p>
+                    <p>Port: 9095</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://43.138.87.70:9095" target="_blank">访问</a>
+                </div>
+            </div>
+    
+            <!-- Example service card -->
+            <div class="card">
+                <div class="card-info">
+                    <h2>frp_limingxiu</h2>
+                    <p>frp_limingxiu</p>
+                    <p>Port: 9744</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://43.138.87.70:9744" target="_blank">访问</a>
+                </div>
+            </div>
+    
+            <!-- Example service card -->
+            <div class="card">
+                <div class="card-info">
+                    <h2>frp</h2>
+                    <p>frp</p>
+                    <p>Port: 7000</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://43.138.87.70:7000" target="_blank">访问</a>
+                </div>
+            </div>
+    
+        </div>
+    
+    </div>
+    
+    <div class="category">
+        <h2 class="category-title">env</h2>
+        
+        <div class="cards-container">
+            
+            <!-- Example service card -->
+            <div class="card">
+                <div class="card-info">
+                    <h2>c++</h2>
+                    <p>c++</p>
+                    <p>Port: 9092</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://43.138.87.70:9092" target="_blank">访问</a>
+                </div>
+            </div>
+    
+            <!-- Example service card -->
+            <div class="card">
+                <div class="card-info">
+                    <h2>c++</h2>
+                    <p>c++</p>
+                    <p>Port: 9091</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://43.138.87.70:9091" target="_blank">访问</a>
+                </div>
+            </div>
+    
+        </div>
+    
+    </div>
+    
+</body>
+</html>
