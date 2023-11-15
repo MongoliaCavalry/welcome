@@ -1,0 +1,307 @@
+{
+    "blog": {
+        "3": {
+            "name": "hugo_01",
+            "ip": "43.138.87.70",
+            "port": "2001",
+            "introduction": "hugo_01",
+            "create_shell": "",
+            "image_url": ""
+        },
+        "4": {
+            "name": "hugo_02",
+            "ip": "43.138.87.70",
+            "port": "2002",
+            "introduction": "hugo_02",
+            "create_shell": "",
+            "image_url": ""
+        },
+        "5": {
+            "name": "hugo_03",
+            "ip": "43.138.87.70",
+            "port": "2003",
+            "introduction": "hugo_03",
+            "create_shell": "",
+            "image_url": ""
+        },
+        "6": {
+            "name": "hugo_04",
+            "ip": "43.138.87.70",
+            "port": "2004",
+            "introduction": "hugo_04",
+            "create_shell": "",
+            "image_url": ""
+        },
+        "7": {
+            "name": "test_hugo",
+            "ip": "43.138.87.70",
+            "port": "1313",
+            "introduction": "test_hugo",
+            "create_shell": "",
+            "image_url": ""
+        },
+        "8": {
+            "name": "markdown_blog_001",
+            "ip": "43.138.87.70",
+            "port": "5009",
+            "introduction": "markdown_blog_001",
+            "create_shell": "",
+            "image_url": ""
+        },
+        "9": {
+            "name": "Apache_md_blog",
+            "ip": "43.138.87.70",
+            "port": "5008",
+            "introduction": "Apache_md_blog",
+            "create_shell": "",
+            "image_url": ""
+        },
+        "11": {
+            "name": "MarkdownBlog",
+            "ip": "43.138.87.70",
+            "port": "5006",
+            "introduction": "MarkdownBlog",
+            "create_shell": "",
+            "image_url": ""
+        },
+        "31": {
+            "name": "Memos",
+            "ip": "43.138.87.70",
+            "port": "5230",
+            "introduction": "Memos",
+            "create_shell": "",
+            "image_url": ""
+        }
+    },
+    "Docker Maneger": {
+        "1": {
+            "name": "Server_status",
+            "ip": "43.138.87.70",
+            "port": "19999",
+            "introduction": "Server_status",
+            "create_shell": "",
+            "image_url": ""
+        },
+        "2": {
+            "name": "ServerStatus",
+            "ip": "43.138.87.70",
+            "port": "8888",
+            "introduction": "ServerStatus",
+            "create_shell": "",
+            "image_url": ""
+        },
+        "13": {
+            "name": "portainer_agent",
+            "ip": "43.138.87.70",
+            "port": "9001",
+            "introduction": "portainer_agent",
+            "create_shell": "",
+            "image_url": ""
+        },
+        "14": {
+            "name": "面板",
+            "ip": "43.138.87.70",
+            "port": "8081",
+            "introduction": "面板",
+            "create_shell": "",
+            "image_url": ""
+        },
+        "36": {
+            "name": "docker master",
+            "ip": "43.138.87.70",
+            "port": "9000",
+            "introduction": "docker master",
+            "create_shell": "",
+            "image_url": ""
+        },
+        "39": {
+            "name": "Portainer",
+            "ip": "43.138.87.70",
+            "port": "9090",
+            "introduction": "Portainer",
+            "create_shell": "",
+            "image_url": ""
+        }
+    },
+    "Server": {
+        "10": {
+            "name": "oa",
+            "ip": "43.138.87.70",
+            "port": "5007",
+            "introduction": "oa",
+            "create_shell": "",
+            "image_url": ""
+        },
+        
+        "12": {
+            "name": "图床",
+            "ip": "43.138.87.70",
+            "port": "5005",
+            "introduction": "图床",
+            "create_shell": "",
+            "image_url": ""
+        },
+        "15": {
+            "name": "flutter_web_00",
+            "ip": "43.138.87.70",
+            "port": "8015",
+            "introduction": "flutter_web_00",
+            "create_shell": "",
+            "image_url": ""
+        },
+        "16": {
+            "name": "flutter_web_01",
+            "ip": "43.138.87.70",
+            "port": "8016",
+            "introduction": "flutter_web_01",
+            "create_shell": "",
+            "image_url": ""
+        },
+        "17": {
+            "name": "flutter_web_02",
+            "ip": "43.138.87.70",
+            "port": "8017",
+            "introduction": "flutter_web_02",
+            "create_shell": "",
+            "image_url": ""
+        },
+        "18": {
+            "name": "flutter_web_04",
+            "ip": "43.138.87.70",
+            "port": "8019",
+            "introduction": "flutter_web_04",
+            "create_shell": "",
+            "image_url": ""
+        },
+        "19": {
+            "name": "flutter_web_03",
+            "ip": "43.138.87.70",
+            "port": "8018",
+            "introduction": "flutter_web_03",
+            "create_shell": "",
+            "image_url": ""
+        },
+        "20": {
+            "name": "FastAPi_dev",
+            "ip": "43.138.87.70",
+            "port": "8000",
+            "introduction": "FastAPi_dev",
+            "create_shell": "",
+            "image_url": ""
+        },
+        "21": {
+            "name": "Spring_dev",
+            "ip": "43.138.87.70",
+            "port": "8080",
+            "introduction": "Spring_dev",
+            "create_shell": "",
+            "image_url": ""
+        },
+        "22": {
+            "name": "fastapi_001",
+            "ip": "43.138.87.70",
+            "port": "8010",
+            "introduction": "fastapi_001",
+            "create_shell": "",
+            "image_url": ""
+        },
+        "23": {
+            "name": "fastapi_002",
+            "ip": "43.138.87.70",
+            "port": "8011",
+            "introduction": "fastapi_002",
+            "create_shell": "",
+            "image_url": ""
+        },
+        "24": {
+            "name": "fastapi_003",
+            "ip": "43.138.87.70",
+            "port": "8012",
+            "introduction": "fastapi_003",
+            "create_shell": "",
+            "image_url": ""
+        },
+        "25": {
+            "name": "MySQL_docker_002",
+            "ip": "43.138.87.70",
+            "port": "9306",
+            "introduction": "MySQL_docker_002",
+            "create_shell": "",
+            "image_url": ""
+        },
+        "26": {
+            "name": "MySQL_docker_001",
+            "ip": "43.138.87.70",
+            "port": "8306",
+            "introduction": "MySQL_docker_001",
+            "create_shell": "",
+            "image_url": ""
+        },
+        "27": {
+            "name": "frp-面板",
+            "ip": "43.138.87.70",
+            "port": "7500",
+            "introduction": "frp-面板",
+            "create_shell": "",
+            "image_url": ""
+        },
+        "28": {
+            "name": "LiunxPC",
+            "ip": "43.138.87.70",
+            "port": "9745",
+            "introduction": "LiunxPC",
+            "create_shell": "",
+            "image_url": ""
+        },
+        "29": {
+            "name": "VS Code Online",
+            "ip": "43.138.87.70",
+            "port": "9096",
+            "introduction": "VS Code Online",
+            "create_shell": "",
+            "image_url": ""
+        },
+        "30": {
+            "name": "CasselDB api docs",
+            "ip": "43.138.87.70",
+            "port": "9095",
+            "introduction": "CasselDB api docs",
+            "create_shell": "",
+            "image_url": ""
+        },
+        "37": {
+            "name": "frp_limingxiu",
+            "ip": "43.138.87.70",
+            "port": "9744",
+            "introduction": "frp_limingxiu",
+            "create_shell": "",
+            "image_url": ""
+        },
+        "38": {
+            "name": "frp",
+            "ip": "43.138.87.70",
+            "port": "7000",
+            "introduction": "frp",
+            "create_shell": "",
+            "image_url": ""
+        }
+    },
+    "env": {
+        "34": {
+            "name": "c++",
+            "ip": "43.138.87.70",
+            "port": "9092",
+            "introduction": "c++",
+            "create_shell": "",
+            "image_url": ""
+        },
+        "35": {
+            "name": "c++",
+            "ip": "43.138.87.70",
+            "port": "9091",
+            "introduction": "c++",
+            "create_shell": "",
+            "image_url": ""
+        }
+    }
+}
